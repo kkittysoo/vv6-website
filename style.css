@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(114, 114, 114);
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(212, 212, 212);
+}
+
+.content {
+    background-color: rgb(212, 212, 212);
+    border: 2px solid;
+    text-align: center;
+    width: 30cm;
+    height: 20cm;
+}
+
+
+.text {
+    width: 100%;
+    margin: 1cm;
+}
+
+.text div{
+    background-color: rgb(135, 135, 135);
+    border: 1px solid;
+    width: 30%;
+    height: 10cm;
+    float: left;
+}
+
