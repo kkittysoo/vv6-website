@@ -30,4 +30,34 @@ h1 {
     height: 10cm;
     float: left;
 }
+a {
+  background-color: rgb(170, 170, 170);
+  color: black;
+  padding: 10px 28px;
+  text-align: center;
+  font-size: 13px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  text-decoration: none;
+  border-style: groove;
+  border-width: 2px;
+}
 
+a:hover {
+  background-color: rgb(120, 120, 120);;
+  color: white;
+}
+
+b {
+  background-color: rgb(210, 209, 209);
+  color: black;
+  padding: 5px 225px;
+  text-align: center;
+  font-size: 30px;
+  margin: 4px 2px;
+  transition: 0.5s;
+  text-decoration: none;
+  border-style: groove;
+  border-color: black;
+  border-width: 2px;
+}
