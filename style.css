@@ -1,10 +1,10 @@
 /* 
 
 60%
-rgb(183, 98, 193) > rgb(114, 114, 114)
+ rgb(250, 205, 255) > rgb(114, 114, 114)
 
 30%
-rgb(255, 205, 221) > rgb(212, 212, 212)
+rgb(183, 98, 193) > rgb(212, 212, 212)
 
 10%
 rgb(77, 16, 103) > black
@@ -12,7 +12,7 @@ rgb(77, 16, 103) > black
 */
 
 body {
-    background-color: rgb(183, 98, 193);
+    background-color: rgb(250, 205, 255);
     max-width: fit-content;
     margin: auto;
     text-align: center;
@@ -21,34 +21,49 @@ body {
     
 }
 
-h1 {
-    color: rgb(77, 16, 103);
+
+h2 {
+    float: left;
+    font-size: 1cm;
+    display: in;
 }
 
-.content {
-    background-color: rgb(250, 205, 255);
-    border: 2px solid rgb(77, 16, 103);
-    text-align: center;
-    width: 30cm;
-    height: 20cm;
-    border-radius: 10px;
-}
+.navigation-menu {
+    float: right;
 
+}
 
 .text {
     width: 100%;
     margin: 1cm;
 }
 
+
 .text div{
-    background-color: rgb(183, 98, 193);
-    border: 1px solid rgb(77, 16, 103);
-    width: 30%;
-    height: 10cm;
-    float: left;
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  width: 30%;
+  height: 10cm;
+  float: left;
+
 }
+
+
+.content {
+    background-color: rgb(183, 98, 193);
+    border: 2px solid rgb(77, 16, 103);
+    text-align: center;
+    width: 30cm;
+    height: 20cm;
+    border-radius: 10px;
+    margin: 10px;
+
+    
+}
+
+
 a {
-  background-color: rgb(183, 98, 193);
+  background-color: rgb(250, 205, 255);
   color: rgb(77, 16, 103);
   padding: 10px 28px;
   text-align: center;
@@ -56,7 +71,7 @@ a {
   margin: 4px 2px;
   transition: 0.5s;
   text-decoration: none;
-  border: 1px groove rgb(77, 16, 103)
+  border: 2px groove rgb(77, 16, 103);
 }
 
 a:hover {
