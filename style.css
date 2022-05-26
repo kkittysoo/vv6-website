@@ -82,6 +82,39 @@ a:hover {
   padding: 5%;
 }
 
+#home ol{
+ text-align: left;
+ background-color:rgb(250, 205, 255);
+ border: 2px solid rgb(77, 16, 103);
+ margin:1%;
+ width: 90%;
+ padding: 5%;
+}
+
+#home a{
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  margin:1%;
+  width: 100cm;
+  height:5cm;
+}
+
+#home .bottom{
+  display: flex;
+  font-size: 15px;
+  color:  rgba(77, 16, 103, 0.54);
+  
+ }
+
+ #home .bottom p {
+  padding: 2%;
+ }
+
+ #home h4 {
+  margin: 0;
+ }
+
+
 #about .text div{
   background-color:rgb(250, 205, 255);
   border: 2px solid rgb(77, 16, 103);
