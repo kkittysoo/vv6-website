@@ -8,95 +8,100 @@ rgb(77, 16, 103) > black
 */
 
 body {
-  background-color: rgb(250, 205, 255);
+  background:  rgb(92, 87, 141) url(Images/background.jpeg) fixed;
+  color: rgb(77, 16, 103);
   max-width: fit-content;
   margin: auto;
   text-align: center;
-  color: rgb(77, 16, 103);
+  width: 100%;
   font-family: sans-serif;
+  font-size: 1.2rem;
   
 }
-h2 {
-  font-size: 1cm;
-  display: in;
-  margin: 0;
-  float: left;
-  margin-left: 200px;
-  position: relative;
-  top:20px;
-}
-
-.navigation-menu {
-position: absolute;
-padding: 10px 28px;
-position: relative;
-top:20px;
-float: right;
-margin-right: 120px;
-
-}
-
-.text {
-  width: 98%;
-position: absolute;
-left:68px;
-top:230px;
-}
-
-
-.text div{
-background-color:rgb(250, 205, 255);
-border: 2px solid rgb(77, 16, 103);
-width: 30%;
-height: 10cm;
-float: left;
-
-}
-
 
 .content {
   background-color: rgb(183, 98, 193);
   border: 2px solid rgb(77, 16, 103);
   text-align: center;
-  width: 30cm;
+  border-radius: 1%;
+  max-width: fit-content;
+  margin: auto;
+  width: 90%;
   height: 20cm;
-  border-radius: 10px;
-  margin: 10px;
+  padding: 5%;
+}
 
-  
+h2 {
+  margin: 0;
+  font-size: 1cm;
+  padding:1%;
+}
+
+.navigation-menu {
+  padding:1%;
+
+}
+
+.text {
+  position: relative;
+  width: 98%;
+  padding:1%;
 }
 
 
+.text div{
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  float: left;
+  width: 30%;
+  }
+
+
+
 a {
-background-color: rgb(250, 205, 255);
-color: rgb(77, 16, 103);
-padding: 10px 28px;
-font-size: 13px;
-transition: 0.5s;
-text-decoration: none;
-border: 2px groove rgb(77, 16, 103);
+  background-color: rgb(250, 205, 255);
+  color: rgb(77, 16, 103);
+  border: 2px groove rgb(77, 16, 103);
+  transition: 0.5s;
+  text-decoration: none;
+  padding: 10px 28px;
 
 }
 
 a:hover {
-background-color: rgb(77, 16, 103);
-color: rgb(250, 205, 255);
-}
-
-b {
-background-color: rgb(250, 205, 255);
-color: rgb(77, 16, 103);
-padding: 5px 225px;
-text-align: center;
-font-size: 30px;
-margin: 4px 2px;
-transition: 0.5s;
-text-decoration: none;
-border-style: groove;
-border-color: rgb(77, 16, 103);
-border-width: 2px;
-}
-
-#home a[Home] {
   background-color: rgb(77, 16, 103);
+  color: rgb(250, 205, 255);
 }
+
+
+#home .text div{
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  margin:1%;
+  width: 90%;
+  padding: 5%;
+}
+
+#about .text div{
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  width: 90%;
+  padding: 5%;
+}
+
+#get-started .text div{
+  background-color:rgb(250, 205, 255);
+  border: 2px solid rgb(77, 16, 103);
+  width: 90%;
+  padding: 5%;
+}
+
+#get-started .content{
+    max-width: fit-content;
+    margin: auto;
+    width: 95%;
+    height: 65cm;
+    padding: 5%;
+}
+
+
