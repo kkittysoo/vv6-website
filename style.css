@@ -96,3 +96,7 @@ border-style: groove;
 border-color: rgb(77, 16, 103);
 border-width: 2px;
 }
+
+#home a[Home] {
+  background-color: rgb(77, 16, 103);
+}
