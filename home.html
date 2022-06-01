@@ -6,60 +6,40 @@
   </head>
   <body id="home">
     <div id="main">
-
       <h1>HOW TO EARN MONEY AS A TEENAGER 101</h1>
       <div class="content">
+
         <div class="header">
-          <div>
             <h2>Rock Rock to the Sky!</h2>
             <div class="navigation-menu">
               <a href="#" class="w3-button w3-black">Home</a>
               <a href="about.html" class="w3-button w3-black">About</a>
               <a href="get-started.html" class="w3-button w3-black">Get Started</a>
-              <a href="links.html" class="w3-button w3-black">Links</a>
             </div>
-          </div>
         </div>
+
         <div class="text">
-          <div>          
+          <div class="top-bar">
             <p> Want to know how to get money as a teenager? Violet has your back!</p>
           </div>
-      </div>
-      <div class="forum">
-        <div class="top-bar">
           <h1>
-              My Forum
+            My Forum
           </h1>
-      </div>
-        <div class="forum-header">
-          <p>What's on your mind?</p>
+          <p class="forum-header">What's on your mind?</p> 
+
+
         </div>
-        <textarea></textarea>
-        <button>add comment</button>
+              <ol id="forum">
+              </ol>
+
+
     </div>
 
-    <div>
-      <ol>
-        <li class="row">
-          <a href="#">
-            <h4 class="subject">Thread 1</h4>
-            <div class="bottom">
-              <p class="timestamp">05/27/2022</p>
-              <p class="comment-count">10 comments</p>
-            </div>
-          </a>
-        </li>
-        <li class="row">
-            <a href="#">
-              <h4 class="subject">Thread 2</h4>
-              <div class="bottom">
-                <p class="timestamp">05/27/2022</p>
-                <p class="comment-count">10 comments</p>
-              </div>
-            </a>
-          </li>
-      </ol>
-      </div>
-      </div>
+      <form id="add-thread" action="#">
+        <input id="subject" placeholder="Subject">
+        <textarea id="body" placeholder="type out your thoughts and questions..."></textarea>
+        <button id="add-button">add thread</button>
+      </form>
+      <script src="app.js"></script>
   </body>
 </html>
