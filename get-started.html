@@ -20,8 +20,9 @@
           </div>
         </div>
         <div class="text">
-          <div class="freelancing">
-            <p>FREELANCING</p>
+          <div class="slide">
+            <div class="block">
+            <h3>FREELANCING</h3>
             <p>
               Freelancing entails working for yourself on an hourly or project				 
               basis. Freelancers are generally called self-employed since they have				 
@@ -31,23 +32,31 @@
               work from clients. Selling services are paid per hour; revenues are tied to				 
               efforts. Someone who works for different companies at different times				 
               rather than being employed by one company.
+              
       </p>
+    </div>
+      <img src="Images/placeholder.png" />
 
         </div>
 
-        <div class="media-jobs">
-          <p> MEDIA JOBS</p>
+        <div class="slide">
+          <div class="block">
+          <h3> MEDIA JOBS</h3>
           <p>
             Media jobs are specialists who develop and implement all targeted 	
             content for various media platforms. A media job specialist is someone 	
             who works to show and tell a story, experience, and convey an idea. 
             They're the ones who advertise and promote their team's idea or product.
         </p>
+      </div>
+        <img src="Images/placeholder.png" />
+        
     
         </div>
 
-        <div class="online-selling">
-          <p>ONLINE SELLING</p>
+        <div class="slide">
+          <div class="block">
+          <h3>ONLINE SELLING</h3>
           <p>
             Online selling is also known as electronic commerce or internet commerce, 
             which refers to the buying and selling of goods or services using the internet, 
@@ -56,22 +65,28 @@
             for example. The seller over the internet allows the consumers to buy goods or products 
             directly from them using a web browser or a mobile app.
           </p>
+          </div>
+          <img src="Images/placeholder.png" />
     
         </div>
 
-        <div class="event-hosting">
-          <p>EVENT HOSTING</p>
+        <div class="slide">
+          <div class="block">
+          <h3>EVENT HOSTING</h3>
           <p>
             Event hosts manage guests at functions like banquets, ceremonies, conferences, and parties. 
             They help plan and organize events and ensure that everything runs smoothly on the day. 
             Welcoming guests, answering questions, and liaising with support staff form part of their duties.
           </p>
+          </div>
+          <img src="Images/placeholder.png" />
     
         </div>
 
 
-        <div class="event-hosting">
-          <p>EVENT HOSTING</p>
+        <div class="slide">
+          <div class="block">
+          <h3>COMMISSIONS</h3>
           <p>
             A commission is a monetary payment made to a salesman for each 	
             transaction made. If a salesperson is paid on commission, 
@@ -79,10 +94,33 @@
             Taking commissions simply means that an artist is available for work and 
             may provide their services in exchange for a fee.
           </p>
-    
+          </div>
+          <img src="Images/placeholder.png" />
         </div>
 
       </div>
+      <button id="prev-btn">prev</button>
+      <button id="next-btn">next</button>
     </div>
+
+    <script>
+
+        const slideParent = document.querySelector('.text');
+        const slideChildren = slideParent.querySelectorAll('.slide');
+
+        const prevBtn = document.querySelector('#prevBtn');
+        const nextBtn = document.querySelector('#nextBtn');
+
+        let counter = 1;
+        const size = slideChildren[0].clientWidth;
+
+        slideParent.style.transform = 'translateX(' +  (-size * counter) + 'px)';
+
+        nextBtn.addEventListener('click', function() {
+            slideParent.style.transition = 'transform 0.4s ease-in-out';
+            counter++;
+            console.log(counter)
+        });
+    </script>
   </body>
 </html>

@@ -10,6 +10,7 @@ body {
   
 }
 
+
 .content {
   background-color: rgb(183, 98, 193);
   border: 2px solid rgb(77, 16, 103);
@@ -125,16 +126,48 @@ a:hover {
 }
 
 #get-started .text div{
-  background-color:rgb(250, 205, 255);
+  display: flex;
+  position: relative;
+  background-image: url(Images/placeholder.png);
+  background-repeat: no-repeat;
+  background-size: contain;
   border: 2px solid rgb(77, 16, 103);
-  width: 90%;
-  padding: 5%;
+  width: 100cm;
+  height: 11cm;
+  padding:2%;
+
+
 }
 
+#get-started .text{
+  display: flex;
+  overflow: hidden;
+}
+
+#get-started img{
+  width: 10cm;
+  height:10cm;
+  opacity: 0;
+}
+
+
+#get-started .text .block {
+  position: inherit;
+  display: block;
+  width:10cm; 
+  background-image: none; 
+  background-color: rgba(133, 25, 179, 0.468);
+}
+
+
 #get-started .content{
+  position: absolute;
     max-width: fit-content;
     margin: auto;
-    width: 95%;
-    height: 65cm;
+    width: 20cm;
+    height: 15cm;
     padding: 5%;
 }
+
+
+
